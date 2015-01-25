@@ -1,4 +1,4 @@
-var port = process.env.port || process.env.npm_package_config_port || 3000;
+var port = process.env.PORT|| process.env.port || process.env.npm_package_config_port || 3000;
 var mount = require('koa-mount');
 var koa = require('koa');
 var app = koa();

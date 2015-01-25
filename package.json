@@ -18,11 +18,11 @@
     "apps": "/:me"
   },
   "engines": {
-	"node": "0.11.x",
+	"iojs": "1.0.x",
 	"npm": "2.2.x"
   },
   "scripts": {
-    "start": "node ."
+    "start": "iojs ."
   },
   "dependencies": {
     "koa": "^0.15",
