@@ -18,8 +18,8 @@
     "apps": "/:me"
   },
   "engines": {
-	"iojs": "^1.4",
-	"npm": "^2.6"
+	"iojs": "^2.0.2",
+	"npm": "^2.9.0"
   },
   "scripts": {
     "start": "iojs ."
